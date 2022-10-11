@@ -1,0 +1,14 @@
+.optionsDisplayContainer {
+	margin-top: calc(40vh + 1em);
+	display: flex;
+	flex-direction: column;
+}
+
+.option {
+	margin: .2em auto;
+	display: inline-flex;
+}
+
+/* .name {
+
+} */

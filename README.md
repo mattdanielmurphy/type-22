@@ -1,14 +1,22 @@
-# React with Bun runtime
+# Type-22
 
-This is a React project bootstrapped with [bun](https://bun.sh/).
+Based on keybr.com and my earlier project, typer.
 
-## Getting Started
+## Main Mode: Generated Lessons
+*Heavily* inspired by keybr.com but uses real, commonly used words for training instead of word fragments generated based on phonetic rules.
+User is presented with a lesson
 
-### Cloning the repo
+## Components
+### Lesson Display
+- Shows the words the user is to type in
+- **Sub-Components**
+  - Key
+    - **State**
+      - AwaitingInput
+        - (waiting for user to press *this* key)
+      - AwaitingCorrectedInput
+      - Inactive (letters are to be typed before this one)
 
-```sh
-bun create react ./react-bun-app
-```
 
 ### Development
 
@@ -19,6 +27,3 @@ bun dev
 ```
 
 Open http://localhost:3000 with your browser to see the result.
-
-You can start editing the page by modifying src/App.jsx. The page auto-updates as you edit the file.
-

@@ -1,0 +1,17 @@
+.word {
+	margin: 0 .1em;
+	display: inline;
+	font-size: 2em;
+}
+
+.inactiveKey {
+	color: grey;
+}
+
+.activeKey {
+	color: aquamarine;
+}
+
+.wrongKey {
+	color: crimson;
+}
